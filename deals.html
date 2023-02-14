@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Christmas Store </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="dealsBody bg-gray-800 text-center text-white">
+	<header role = "banner"> 
+		<h1>Welcome to Our Christmas Store</h1> 
+		<p>This page should be tried in safari, chrome or Mozila.</p> 
+	</header> 
+    <nav class="flex items-center relative justify-center w-full text-center">
+		<ul class="w-2/4 flex justify-around list-none text-lg">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+			<li><a href="deals.html">Today&apos;s Deal</a></li>
+		</ul>
+	</nav> 
+
+	<article>
+		<section class="flex justify-center flex-col mb-3">
+			<h1 style="background-color: mediumseagreen;">Shop Our Best Holiday Deals</h1>
+			<table class="w-full text-center border-4">
+				<tr class="odd:bg-black">
+					<th>Name of the Items</th>
+					<th>Original Price</th>
+					<th>Today&apos;s Deal</th>
+				</tr>
+				<tr class="odd:bg-black">
+					<td class="border-2">Christmas Tree</td>
+					<td class="border-2">$200</td>
+					<td class="border-2">$170</td>
+				</tr>
+				<tr class="odd:bg-black">
+					<td class="border-2">Bag of Lights</td>
+					<td class="border-2">$50</td>
+					<td class="border-2">$40</td>
+				</tr>
+				<tr class="odd:bg-black">
+					<td class="border-2">Christmas Cookies</td>
+					<td class="border-2">$20</td>
+					<td class="border-2">$10</td>
+				</tr>
+				<tr class="odd:bg-black">
+					<td class="border-2">Christmas Pants</td>
+					<td class="border-2">$26</td>
+					<td class="border-2" rowspan="2">$13</td>
+				</tr>
+				<tr class="odd:bg-black">
+					<td class="border-2">Christmas Shirt</td>
+					<td class="border-2">$26</td>
+				</tr>
+				<tr class="odd:bg-black">
+					<td class="border-2">Delivery</td>
+					<td class="border-2" colspan="2">Free</td>
+				</tr>
+			</table>
+		</section>
+        <div class="grid grid-cols-3 gap-5">
+            <div class="hover:scale-105 hover:animate-spin bg-white text-black m-2">
+                <img src="cookie.jpeg" alt="tree">
+                <div class="cardText m-2">
+                    <h2>Christmas Tree</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ipsum at magnam reprehenderit sit? Tempore velit sequi ipsa blanditiis, sunt odit corporis beatae? Ullam reprehenderit dolores voluptate, magnam eveniet minus.</p>
+                    <p  class="bg-red-200 w-1/4 text-center m-4">$170</p>
+                </div>
+            </div>
+            <div class="hover:scale-105 hover:animate-spin text-black m-2">
+                <img src="lights.jpg" alt="lights">
+                <div class="cardText bg-white p-2">
+                    <h2>Bag of Lights</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ipsum at magnam reprehenderit sit? Tempore velit sequi ipsa blanditiis, sunt odit corporis beatae? Ullam reprehenderit dolores voluptate, magnam eveniet minus.</p>
+                    <p  class="bg-red-200 w-1/4 text-center m-4">$40</p>
+                </div>
+            </div>
+            <div class="hover:scale-105 hover:animate-spin bg-white-200 text-black bg-white">
+                <img src="cookiedeal.jpeg" alt="cookie">
+                <div class="cardText bg-white text-black m-2">
+                    <h2>Christmas Cookies</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ipsum at magnam reprehenderit sit? Tempore velit sequi ipsa blanditiis, sunt odit corporis beatae? Ullam reprehenderit dolores voluptate, magnam eveniet minus.</p>
+                    <p  class="bg-red-200 w-1/4 text-center m-4">$10</p>
+                </div>
+            </div>
+            <div class="hover:scale-105 hover:animate-spin bg-white-200 text-black bg-white">
+                <img src="pants.webp" alt="pants">
+                <div class="cardText bg-white text-black m-2">
+                    <h2>Christmas Pants</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ipsum at magnam reprehenderit sit? Tempore velit sequi ipsa blanditiis, sunt odit corporis beatae? Ullam reprehenderit dolores voluptate, magnam eveniet minus.</p>
+                    <p  class="bg-red-200 w-1/4 text-center m-4">$13</p>
+                </div>
+            </div>
+            <div class="hover:scale-105 hover:animate-spin bg-white-200 text-black bg-white">
+                <img src="shirt.webp" alt="shirt">
+                <div class="cardText bg-white text-black m-2">
+                    <h2>Christmas Shirts</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ipsum at magnam reprehenderit sit? Tempore velit sequi ipsa blanditiis, sunt odit corporis beatae? Ullam reprehenderit dolores voluptate, magnam eveniet minus.</p>
+                    <p  class="bg-red-200 w-1/4 text-center m-4">$13</p>
+                </div>
+            </div>
+            <div class="hover:scale-105 hover:animate-spin bg-white-200 text-black bg-white">
+                <img src="presentsdeal.jpeg" alt="delivery">
+                <div class="cardText bg-white text-black m-2">
+                    <h2>Delivery</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste ipsum at magnam reprehenderit sit? Tempore velit sequi ipsa blanditiis, sunt odit corporis beatae? Ullam reprehenderit dolores voluptate, magnam eveniet minus.</p>
+                    <p  class="bg-red-200 w-1/4 text-center m-4">FREE</p>
+                </div>
+            </div>
+        </div>
+	</article> 
+
+
+<footer class="text-center w-full"><br><br><br>&copy;2023 Nasheen Nur</footer>
+	<!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> -->
+	
+
+</body>
+</html>

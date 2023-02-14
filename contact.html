@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Christmas Store </title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-800 text-center text-white">
+	<header role = "banner"> 
+		<h1>Welcome to Our Christmas Store</h1> 
+		<p>This page should be tried in safari, chrome or Mozila.</p>
+         
+	</header> 
+
+    <nav class="flex items-center relative justify-center w-full text-center">
+		<ul class="w-2/4 flex justify-around list-none text-lg">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="contact.html">Contact us</a></li>
+			<li><a href="deals.html">Today&apos;s Deal</a></li>
+		</ul>
+	</nav> 
+
+	<article>
+		<section class="w-full flex place-items-center font-serif flex-col font-bold text-lg text-white">
+			<form action="index.html" class="bg-[url('formback.jpeg')] p-2 w-full bg-no-repeat bg-cover">
+				<label class="block first-letter:text-blue-800 focus:bg-blue-200" for="fname">First Name: </label><br>
+				<input class="text-black p-2" type="text" id="fname" name="fname" placeholder="John" size="100"><br>
+				<label class="block first-letter:text-blue-800 focus:bg-blue-200" for="lname">Last Name: </label><br>
+				<input class="text-black p-2" type="text" id="lname" name="lname" placeholder="Doe" maxlength="50"><br><br>
+				<label class="block first-letter:text-blue-800 focus:bg-blue-200" for="lname">Email: </label><br>
+				<input class="text-black p-2" type="email" id="email" name="email" placeholder="Doe@gmail.com" maxlength="50"><br><br>
+				<label class="block first-letter:text-blue-800 focus:bg-blue-200" for="msg">Your Message: </label><br>
+				<textarea class="text-black p-2" id="msg" rows="10" cols="50" placeholder="Type Here...."></textarea><br>
+				<label class="block first-letter:text-blue-800 focus:bg-blue-200" for="check">Check if you were nice </label>
+				<input class="text-black p-2" id="check" type="checkbox"><br><br>
+				<input class="text-black p-2" type="submit" value="Submit">
+			</form>
+		</section>
+	</article> 
+
+	<aside>
+		<p> This is the aside part of the web page. </p>
+	</aside> 
+
+<footer class="text-center w-full"><br><br><br> &copy;2023 Nasheen Nur</footer>
+	<!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> -->
+	
+
+</body>
+</html>

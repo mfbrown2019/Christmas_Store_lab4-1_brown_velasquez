@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>The Christmas Store </title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-800 text-white">
+	<header role="banner" class="text-center"> 
+		<img class="w-full h-36 " src="christmas.jfif" alt="christmas card">
+		<h1 class="text-center text-red-200">Welcome to Our Christmas Store</h1> 
+		<p class="text-red-200">This page should be tried in safari, chrome or Mozila.</p> 
+	</header> 
+	<nav class="flex items-center relative justify-center w-full text-center">
+		<ul class="w-2/4 flex justify-around list-none text-lg">
+			<li><a class="hover:text-red-200 active:text-amber-300" href="index.html">Home</a></li>
+			<li><a class="hover:text-red-200 active:text-amber-300" href="contact.html">Contact us</a></li>
+			<li><a class="hover:text-red-200 active:text-amber-300" href="deals.html">Today&apos;s Deal</a></li>
+		</ul>
+	</nav> 
+
+	<article>
+		<section>
+
+			<h1 class="text-center text-red-200"> Welcome to my site. Please come in and stay awhile.</h1>
+			<!-- 1. image is in the same folder - relative path -->
+			<img class=" block ml-auto mr-auto w-2/4" src="christmas.jfif" alt="Christmas Light" style="width:500px;height:600px;">
+			<!-- alternatives ways to link image
+			1. from a website -->
+			<!-- <img src="https://www.qries.com/images/banner_logo.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
+			<!-- 2. image is in different folder - relative path (child directory) -->
+			<!-- <img src="images/light.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
+			<!-- 3. image is in different folder - relative path (parent directory) -->
+			<!-- <img src="./../light.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
+			<!-- 4. absolute path -->
+			<!-- <img src="file:///Users/nasheennur/Desktop/Courses/CSE%204234:5234/demos/lab_1/light.png" alt="Christmas Light" style="width:500px;height:600px;"> -->
+
+
+
+			<p class="text-red-200 text-center">
+				&quot;i.	I started this web site because Christmas has always been my favorite holiday. Last year, I started selling some of my favorite Christmas products and they&apos;ve become quite a hit.&quot;
+			</p>
+
+			<p class="text-red-200 text-center">
+				&quot;ii.	If you click on the personal link, you can browse my favorite Christmas pictures, stories and films. If you join my email list, I will keep you you up-to-date on all things Christmas.&quot;
+			</p>
+
+            
+			<h2 class="text-center text-lg"> Product Categories </h2>
+            <div class="grid grid-cols-3 gap-3">
+                <div class="bg-white text-black text-center">
+                    <img src="decoration.jpeg" alt="decoration">
+                    <div class="cardText">
+                        <h2>Decorations</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reiciendis esse ea eius maxime error ex voluptatibus, quam, illum ab quasi facilis nulla voluptate sequi quis quibusdam aliquid expedita blanditiis.</p>
+                        <p class="bg-blue-200 w-1/4 text-center m-4">$100-$500</p>
+                    </div>
+                </div>
+                <div class="bg-white text-black text-center">
+                    <img src="cookie.jpeg" alt="cookie">
+                    <div class="cardText">
+                        <h2>Recipes</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reiciendis esse ea eius maxime error ex voluptatibus, quam, illum ab quasi facilis nulla voluptate sequi quis quibusdam aliquid expedita blanditiis.</p>
+                        <p class="bg-blue-200 w-1/4 text-center m-4">$100-$500</p>
+                    </div>
+                </div>
+                <div class="bg-white text-black text-center">
+                    <img src="toy.jpeg" alt="toy">
+                    <div class="cardText">
+                        <h2>Toys</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reiciendis esse ea eius maxime error ex voluptatibus, quam, illum ab quasi facilis nulla voluptate sequi quis quibusdam aliquid expedita blanditiis.</p>
+                        <p class="bg-blue-200 w-1/4 text-center m-4">$100-$500</p>
+                    </div>
+                </div>
+                <div class="bg-white text-black text-center">
+                    <img src="present.jpeg" alt="present">
+                    <div class="cardText">
+                        <h2>Unique Gift Ideas</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reiciendis esse ea eius maxime error ex voluptatibus, quam, illum ab quasi facilis nulla voluptate sequi quis quibusdam aliquid expedita blanditiis.</p>
+                        <p class="bg-blue-200 w-1/4 text-center m-4 m-4">$100-$500</p>
+                    </div>
+                </div>
+                <div class="bg-white text-black text-center">
+                    <img src="paper.jpeg" alt="paper">
+                    <div class="cardText">
+                        <h2>Wrapping Paper</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi reiciendis esse ea eius maxime error ex voluptatibus, quam, illum ab quasi facilis nulla voluptate sequi quis quibusdam aliquid expedita blanditiis.</p>
+                        <p class="bg-blue-200 w-1/4 text-center m-4">$100-$500</p>
+                    </div>
+                </div>
+            </div>
+	
+
+
+			<dl class="text-center">
+				<dt>Coffee</dt>
+				    <dd>Black hot drink</dd>
+				<dt>Milk</dt>
+				    <dd>White cold drink</dd>
+			</dl>
+
+			<h3 class="text-center"> My guarantee </h3>
+
+			<p class="text-center"> 
+				If you aren&apos;t completely satisfied with everything you buy from my site, you can return it for a full refund. 
+				<br/>
+				<em>No questions asked!</em>
+			</p>
+
+			<div style="width: 50%;">
+				<h4 style="text-align: center;">Christmas Fireplace Video</h4>
+				<iframe src="https://www.youtube.com/embed/tX3_3dvmocM" width="700" height="500"></iframe><br />
+			</div>
+
+			<a href="https://www.google.com/maps/place/Florida+Institute+of+Technology/@28.0646888,-80.6252107,17z/data=!3m1!4b1!4m5!3m4!1s0x88de1204fc52a6f7:0x37ba57635d6a3f15!8m2!3d28.0646888!4d-80.623022
+			">Google Maps - FIT</a> 
+
+		</section>
+	</article> 
+
+	<aside class="w-1/4 ml-2 pl-2 float-right italic bg-gray-200 text-red-600">
+		<p> This is the aside part of the web page. </p>
+	</aside> 
+
+	
+		<iframe style="width:100%" height="600" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=150%20W%20University%20Blvd,%20Melbourne,%20FL%2032901+(Your%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+	
+
+
+	<footer class="text-center w-full"> &copy;2023 Nasheen Nur</footer>
+	<!-- <a href="http://validator.w3.org/check?uri=referer">Validate</a> -->
+	
+
+</body>
+</html>
