@@ -7,6 +7,11 @@
 
     <link rel="stylesheet" href="style.css" type="text/css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        document.getElementById("sub").onsubmit = function() {
+            alert("Form Submitted!");
+        }
+    </script>
 </head>
 
 <body class="bg-gray-800 text-center text-white">
@@ -37,7 +42,7 @@
 				<textarea class="text-black p-2" id="msg" rows="10" cols="50" placeholder="Type Here...."></textarea><br>
 				<label class="block first-letter:text-blue-800 focus:bg-blue-200" for="check">Check if you were nice </label>
 				<input class="text-black p-2" id="check" type="checkbox"><br><br>
-				<input class="text-black p-2" type="submit" value="Submit">
+				<input id="sub" class="text-black p-2" type="submit" value="Submit">
 			</form>
 		</section>
 	</article> 
