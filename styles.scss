@@ -1,0 +1,46 @@
+$fsone: 15px;
+$fstwo: 10px;
+$fsthree: 20px;
+    
+@mixin one(){
+    font-family:sans-serif;
+    font-size: $fsone;
+    color:red;
+}
+
+@mixin two(){
+    font-family:sans-serif;
+    font-size: $fstwo;
+    color:green;
+}
+
+@mixin three(){
+    font-size: $fsthree;
+    color:blue;
+}
+
+#one {
+    @include one();
+}
+
+#two {
+    @include two();
+}
+
+#three {
+    @include three()
+}
+
+// @import 'codeone';
+// @import 'codetwo';
+// @import 'codethree';
+
+
+.first {
+    color: yellow;
+
+    &--second {
+        @extend .first;
+        font-weight: bold;
+    }
+}
